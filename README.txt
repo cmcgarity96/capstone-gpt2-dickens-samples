@@ -6,9 +6,9 @@ The folder dickens8_samples contains 10 samples each from the four chosen inputs
 
 The folder dickens15_samples contains 10 samples from each of the four chosen inputs, generated on the GPT-2 model finetuned on 12k steps with 15 Dickens books.  The specific books can be found under the README in that file.
 
-The file dickens8_800steps was finetuned on 8 books, with 100 steps per book for 800 steps total, and contains samples compiled together as one complete text file.  It is formatted differently than the other samples and does not contain delimiters between samples.  These samples were from the smaller 124M model as opposed to the 355M model.
+The file dickens8_800steps was finetuned on 8 books, with 100 steps per book for 800 steps total, and contains samples compiled together as one complete text file.  It is formatted differently than the other samples and does not contain delimiters between samples.  These samples were from the smaller 124M model as opposed to the 355M model.  The samples were outputted while the model trained, and were outputted at different steps intermittently until it reached 800.  They were not given input to generate from other than the training data.
 
-The four different inputs were as follows:
+The four different inputs used for all samples, other than those in dickens8_800steps.txt, were as follows:
 
 -CHAPTER 1
 
