@@ -1,10 +1,12 @@
-Each folder contains 40 samples each from the GPT-2 355M model.  Four different inputs were used, and 10 samples were generated from each input.  
+The 3 folders contain 40 samples each from the GPT-2 355M model.  Four different inputs were used, and 10 samples were generated from each input.  
 
 The folder gpt2reg_samples contains 10 samples each from the four chosen inputs generated on the pretrained GPT-2 model with NO finetuning, just the model as it is from OpenAI's GitHub.  
 
 The folder dickens8_samples contains 10 samples each from the four chosen inputs, generated on the GPT-2 model finetuned on 12k steps with 8 Dickens books.  The specific books can be found under the README in that file.
 
 The folder dickens15_samples contains 10 samples from each of the four chosen inputs, generated on the GPT-2 model finetuned on 12k steps with 15 Dickens books.  The specific books can be found under the README in that file.
+
+The file dickens8_800steps was finetuned on 8 books, with 100 steps per book for 800 steps total, and contains samples compiled together as one complete text file.  It is formatted differently than the other samples and does not contain delimiters between samples.  These samples were from the smaller 124M model as opposed to the 355M model.
 
 The four different inputs were as follows:
 
